@@ -50,12 +50,12 @@ iBackupBot: https://www.icopybot.com/ibackupbot_setup.exe
 
 15) Supprimer les backup dans "%appdata%\Apple Computer\MobileSync\Backup"
 
-16) Refaite une backup de l'iPad (refaite les étapes 2 à 4)
+16) Faite une nouvelle backup de l'iPad (refaite les étapes 2 à 4)
 
 17) Naviguer sur iBackupBot dans System Files > SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles > Library > Configuration Profiles
 
 18) Supprimer "HomeScreenLayout.plist"
 
-19) Restaurer la nouvelle backup de nouveau (étapes 8 à 12)
+19) Restaurer la nouvelle backup (étapes 8 à 12)
 
 20) Vos application sur l'accueil seront tout déranger, il faudra juste patienter pour qu'elle se remettent automatiquement.
