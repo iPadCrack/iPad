@@ -1,5 +1,15 @@
 # Installer les applications que vous voulez sur l'iPad
 
+## À lire avant de commencer
+
+Ce guide est fourni uniquement à des fins éducatives et informatives. Il a pour but d'expliquer le fonctionnement des outils mentionnés et ne doit en aucun cas être utilisé pour contourner des restrictions mises en place par un établissement ou une organisation.
+
+L'utilisation des méthodes décrites relève de la seule responsabilité de la personne qui les applique. En aucun cas, je ne peux être tenu responsable des conséquences, directes ou indirectes, liées à leur utilisation.
+
+Toute manipulation sur un appareil appartenant à un tiers sans autorisation peut constituer une infraction aux articles L323-1 et suivants du Code pénal (accès frauduleux à un système informatique) et L122-6 du Code de la propriété intellectuelle (modification non autorisée de logiciels ou de systèmes).
+
+En poursuivant la lecture et/ou en appliquant ces étapes, vous reconnaissez agir en pleine connaissance de cause et sous votre entière responsabilité.
+
 ## Applications requises :
 
 iTunes: https://www.apple.com/itunes/download/win64/
