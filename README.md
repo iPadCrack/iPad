@@ -1,12 +1,12 @@
 # Installer les applications que vous voulez sur l'iPad
 
-# Applications requises :
+## Applications requises :
 
 iTunes: https://www.apple.com/itunes/download/win64/
 
 iBackupBot: https://www.icopybot.com/ibackupbot_setup.exe
 
-# Partie 1 : Retirer les restrictions de l'AppStore
+## Partie 1 : Retirer les restrictions de l'AppStore
 
 1) Déconnectez le compte Apple du lycée dans les réglages (vous devrez créer votre propre compte Apple)
 
@@ -50,7 +50,7 @@ iBackupBot: https://www.icopybot.com/ibackupbot_setup.exe
 
 ![image](https://github.com/user-attachments/assets/40453814-891e-4488-90f7-db724ca9f3c4)
 
-# Partie 2 : Maintenant que vos application sont installer, il faut resychroniser les profiles de sécurité (aussi afin de cacher les racourcis web qui pourrez vous faire distinguer d'un iPad normal)
+## Partie 2 : Maintenant que vos application sont installer, il faut resychroniser les profiles de sécurité (aussi afin de cacher les racourcis web qui pourrez vous faire distinguer d'un iPad normal)
 
 15) Supprimez les sauvegardes dans "%appdata%\Apple Computer\MobileSync\Backup"
 
@@ -64,4 +64,4 @@ iBackupBot: https://www.icopybot.com/ibackupbot_setup.exe
 
 20) Vos applications sur l'accueil seront toutes désorganisées. Il faudra patienter pour qu'elles se remettent automatiquement en place.
 
-# Tout devrait être bon. Si vous voulez installer à nouveau d'autres applications, vous pouvez refaire toutes les étapes, mais vous n'aurez plus qu'à supprimer "profile-9c39fa2c22c1bfce337e0c01990d1a7359198a5a78d79ce87eb88ca0a2eabfca.xml" dans l'étape 7.
+### Tout devrait être bon. Si vous voulez installer à nouveau d'autres applications, vous pouvez refaire toutes les étapes, mais vous n'aurez plus qu'à supprimer "profile-9c39fa2c22c1bfce337e0c01990d1a7359198a5a78d79ce87eb88ca0a2eabfca.xml" dans l'étape 7.
