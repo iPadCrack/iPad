@@ -72,4 +72,8 @@ iBackupBot: https://www.icopybot.com/ibackupbot_setup.exe
 
 20) Vos applications sur l'accueil seront toutes désorganisées. Il faudra patienter pour qu'elles se remettent automatiquement en place.
 
-### Tout devrait être bon. Si vous voulez installer à nouveau d'autres applications, vous pouvez refaire toutes les étapes, mais vous n'aurez plus qu'à supprimer "profile-9c39fa2c22c1bfce337e0c01990d1a7359198a5a78d79ce87eb88ca0a2eabfca.xml" dans l'étape 7.
+## Note
+
+Tout devrait être bon.
+
+Si vous voulez installer à nouveau d'autres applications, vous pouvez refaire toutes les étapes, mais vous n'aurez plus qu'à supprimer "profile-9c39fa2c22c1bfce337e0c01990d1a7359198a5a78d79ce87eb88ca0a2eabfca.xml" dans l'étape 7.
