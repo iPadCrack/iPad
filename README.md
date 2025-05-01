@@ -32,13 +32,16 @@ iBackupBot: https://www.icopybot.com/ibackupbot_setup.exe
 
 6) Naviguez sur iBackupBot (en cliquant sur le "+" à gauche de la backup) dans System Files > SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles > Library > Configuration Profiles
    
-7) Supprimez "profile-58a3e6aebe69b06efc831fe5c7d8100beb27dcc67222a985e77dd193f4ba7e6a.xml" et "profile-9c39fa2c22c1bfce337e0c01990d1a7359198a5a78d79ce87eb88ca0a2eabfca.xml"
+7) Supprimez les fichiers suivants :
+   - `profile-58a3e6aebe69b06efc831fe5c7d8100beb27dcc67222a985e77dd193f4ba7e6a.xml`
+   - `profile-9c39fa2c22c1bfce337e0c01990d1a7359198a5a78d79ce87eb88ca0a2eabfca.xml`
 
 ![image](https://github.com/user-attachments/assets/11581db3-eb96-4776-a78a-f1f970072765)
 
 8) Fermez iBackupBot
 
-9) Cherchez le dossier de la sauvegarde modifiée et déplacez-la dans "%appdata%\Apple Computer\MobileSync\Backup"
+9) Faites Windows + R et taper "%appdata%". Ensuite, vous aurez sois un dossier "Apple" ou "Apple Computer" selon votre ordinateur. Aller dedans, puis dans "MobileSync", puis "Backup". Déplacer votre backup modifier dans ce dossier (celle que vous avez créée à l’étape 3)
+    - ⚠️ Si des dossiers sont déjà présents dans le dossier "Backup" de Apple, supprimez-les ou déplacez-les autre part pour éviter toute confusion lors de la restauration.
 
 ![image](https://github.com/user-attachments/assets/27df34d7-11a9-4635-a158-b82f817ec953)
 
@@ -52,28 +55,27 @@ iBackupBot: https://www.icopybot.com/ibackupbot_setup.exe
 
 12) Tapez votre code sur l'iPad pour confirmer la restauration
 
-13) Fermez iTunes
+13) Quand la restauration est terminé, fermez iTunes
 
 14) Installez vos applications depuis l'App Store, puis cachez-les en appuyant sur 'Exiger Touch ID'
 
 ![image](https://github.com/user-attachments/assets/40453814-891e-4488-90f7-db724ca9f3c4)
 
-## Partie 2 : Maintenant que vos application sont installer, il faut resychroniser les profiles de sécurité (aussi afin de cacher les racourcis web qui pourrez vous faire distinguer d'un iPad normal)
+## Partie 2 : Maintenant que vos application sont installer, il faut resychroniser les profiles de sécurité
+### Vous avez peut-être remarqué des raccourcis web spécifiques aux iPads des enseignants, qui pourraient faire distringuer la modification de votre iPad. Il est donc fortement recommandé de réappliquer les profils de sécurité pour masquer cette différence.
 
-15) Supprimez les sauvegardes dans "%appdata%\Apple Computer\MobileSync\Backup"
+15) Faites une nouvelle sauvegarde de l'iPad en répétant les étapes 2 à 4
 
-16) Faites une nouvelle sauvegarde de l'iPad (refaite les étapes 2 à 4)
+16) Naviguez sur iBackupBot dans System Files > SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles > Library > Configuration Profiles
 
-17) Naviguez sur iBackupBot dans System Files > SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles > Library > Configuration Profiles
+17) Supprimez le fichier `HomeScreenLayout.plist`
 
-18) Supprimez "HomeScreenLayout.plist"
-
-19) Restaurez la nouvelle sauvegarde (étapes 8 à 12)
+18) Restaurez la nouvelle sauvegarde modifiée en répétant les étapes 8 à 13
+    - ➡️ Lors de l'étape 9, supprimez d'abord tout le contenu du dossier Backup (comme indiqué dans l'avertissement), puis placez-y votre nouvelle sauvegarde.
 
 20) Vos applications sur l'accueil seront toutes désorganisées. Il faudra patienter pour qu'elles se remettent automatiquement en place.
 
-## Note
+## Notes
 
-Tout devrait être bon.
-
-Si vous voulez installer à nouveau d'autres applications, vous pouvez refaire toutes les étapes, mais vous n'aurez plus qu'à supprimer "profile-9c39fa2c22c1bfce337e0c01990d1a7359198a5a78d79ce87eb88ca0a2eabfca.xml" dans l'étape 7.
+* Il n'y aura pas de mises à jour automatique des application de l'AppStore, il vous faudra refaire une backup via iTunes et simplement la restaurer sans rien modifier pour que les mises à jour ce fasse pendant la restauration automatiquement.
+* Si vous voulez installer à nouveau d'autres applications, vous devrais refaire toutes les étapes, mais vous n'aurez plus qu'à supprimer "profile-9c39fa2c22c1bfce337e0c01990d1a7359198a5a78d79ce87eb88ca0a2eabfca.xml" dans l'étape 7.
