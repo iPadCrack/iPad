@@ -57,12 +57,12 @@ iBackupBot: https://www.icopybot.com/ibackupbot_setup.exe
 
 13) Quand la restauration est terminé, fermez iTunes
 
-14) Installez vos applications depuis l'App Store, puis cachez-les en appuyant sur 'Exiger Touch ID'
+14) Installez vos applications depuis l'App Store, puis cachez-les en appuyant sur 'Exiger Touch ID' sur l'icon.
 
-![image](https://github.com/user-attachments/assets/40453814-891e-4488-90f7-db724ca9f3c4)
+*Info: Vous pourrez utiliser le cloud gaming xbox en suivant ce tuto: https://better-xcloud.github.io/safari/*
 
 ## Partie 2 : Maintenant que vos application sont installer, il faut resychroniser les profiles de sécurité
-### Vous avez peut-être remarqué des raccourcis web spécifiques aux iPads des enseignants, qui pourraient faire distringuer la modification de votre iPad. Il est donc fortement recommandé de réappliquer les profils de sécurité pour masquer cette différence.
+### Vous avez peut-être remarqué des raccourcis web spécifiques aux iPads des enseignants, qui pourraient faire distinguer d'un iPad normal. Il est donc fortement recommandé de réappliquer les profils de sécurité pour masquer cette différence.
 
 15) Faites une nouvelle sauvegarde de l'iPad en répétant les étapes 2 à 4
 
@@ -73,9 +73,14 @@ iBackupBot: https://www.icopybot.com/ibackupbot_setup.exe
 18) Restaurez la nouvelle sauvegarde modifiée en répétant les étapes 8 à 13
     - ➡️ Lors de l'étape 9, supprimez d'abord tout le contenu du dossier Backup (comme indiqué dans l'avertissement), puis placez-y votre nouvelle sauvegarde.
 
-20) Vos applications sur l'accueil seront toutes désorganisées. Il faudra patienter pour qu'elles se remettent automatiquement en place.
+20) Vos applications sur l'écran d'accueil seront toutes désorganisées. Il faudra patienter pour qu'elles se remettent automatiquement en place.
 
 ## Notes
 
-* Il n'y aura pas de mises à jour automatique des application de l'AppStore, il vous faudra refaire une backup via iTunes et simplement la restaurer sans rien modifier pour que les mises à jour ce fasse pendant la restauration automatiquement.
+* ⚠️ Il n’y aura pas de mise à jour automatique des applications installées. Vous devrez refaire une sauvegarde via iTunes, puis la restaurer sans rien modifier pour que les mises à jour se fassent automatiquement pendant la restauration.
+
+- ⚠️ Les signet web tel que Amazon Luna et GeForce NOW (cloud gaming) ne fonctionneront plus après avoir remis les sécurité en place. Seul le cloud gaming de Xbox peut fonctionner en suivant l'info en dessous de l'étape 14.
+
+* Vous pourrez cacher les application FaceTime et Itunes Store en allant dans Réglages > Temps d'écran > Contenu et confidentialité > Apps et fonctionnalités approuvées puis en décochant les applications que vous souhaitait cacher.
+  
 * Si vous voulez installer à nouveau d'autres applications, vous devrais refaire toutes les étapes, mais vous n'aurez plus qu'à supprimer "profile-9c39fa2c22c1bfce337e0c01990d1a7359198a5a78d79ce87eb88ca0a2eabfca.xml" dans l'étape 7.
